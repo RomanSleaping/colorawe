@@ -1,10 +1,8 @@
-body {
-  width: 1440px;
-}
 .container {
   width: 1110px;
   margin: 0 auto;
 }
+
 /* HEADER */
 
 header {
@@ -88,7 +86,7 @@ nav {
 .hero {
   width: 1440px;
   height: 858px;
-  background-image: url(./img/hero-img.jpeg);
+  background-image: url(../img/hero-img.jpeg);
 }
 .hero-image {
   width: 160px;
@@ -164,7 +162,7 @@ h1 {
 .Why-us {
   width: 1440px;
   height: 606px;
-  background-image: url(./img/Why-us.jpeg);
+  background-image: url(../img/Why-us.jpeg);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -190,7 +188,7 @@ h1 {
 }
 /* reviews */
 .reviews {
-  background-image: url(./img/reviews.jpeg);
+  background-image: url(../img/reviews.jpeg);
   width: 1440px;
   height: 520px;
   border-bottom: 2px solid rgb(255, 255, 255);
@@ -204,8 +202,8 @@ h1 {
   line-height: 64px;
   letter-spacing: 0%;
   text-align: center;
-
-  margin: 0 auto;
+}
+.reviews-container {
   margin-top: 25px;
 }
 .quote-p {
@@ -344,7 +342,7 @@ input {
 .order {
   width: 1440px;
   height: 509px;
-  background-image: url(./img/order.jpeg);
+  background-image: url(../img/order.jpeg);
   display: flex;
   flex-direction: column;
   align-items: center;
